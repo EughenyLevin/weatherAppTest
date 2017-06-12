@@ -81,7 +81,7 @@
             weather = RainType;
         }  else weather = SunType;
         
-        
+        locationData.weatherType = weather;
         
         NSLog(@"%@ %@ %@ %f",locationData.latitude,locationData.longtitude,locationData.city,locationData.temp);
         
